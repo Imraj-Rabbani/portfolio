@@ -55,7 +55,8 @@ nav {
   text-align: center;
   padding: 10px;
 }
-.nav_portion_1:hover, .nav_portion_2:hover {
+.nav_portion_1:hover,
+.nav_portion_2:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -67,7 +68,7 @@ nav {
   color: black;
 }
 
-.tagline{
+.tagline {
   color: white;
   font-size: 4rem;
   /* border: solid yellow 2px; */
@@ -238,12 +239,12 @@ nav {
   margin: 0 16px;
 }
 
-.starter{
-    display: flex;
-    /* border: red solid 2px; */
-    height: 30vh;
-    justify-content: center;
-    align-items: flex-end;
+.starter {
+  display: flex;
+  /* border: red solid 2px; */
+  height: 30vh;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .imraj {
@@ -267,7 +268,7 @@ nav {
 .myself > * {
   margin-top: 5%;
 }
-.skills > *{
+.skills > * {
   margin-top: 2%;
   margin-left: 2%;
 }
@@ -319,65 +320,62 @@ a:hover {
   color: white;
 }
 
-@media(max-width:700px){
-  .first-box{
+@media (max-width: 700px) {
+  .first-box {
     display: none;
   }
-  .third-box{
-    margin-left:0px;
+  .third-box {
+    margin-left: 0px;
     margin-right: 2%;
   }
-  .tagline{
+  .tagline {
     font-size: 2.5rem;
   }
-  .image{
+  .image {
     width: 100%;
     height: auto;
   }
-   .imraj{
+  .imraj {
     display: block;
   }
-  
 }
-@media(max-width:1200px){
-  .first-box{
+@media (max-width: 1200px) {
+  .first-box {
     width: 25%;
   }
-  .third-box{
+  .third-box {
     /* margin-left:0px; */
     margin-right: -5%;
   }
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 700px){
-  .image{
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+  .image {
     width: 70%;
     height: auto;
   }
-  .myself{
+  .myself {
     width: 30%;
   }
 }
-@media only screen and (max-width: 1200px) and (min-width: 1000px){
-  .image{
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  .image {
     width: 60%;
     height: auto;
   }
-  .myself{
+  .myself {
     width: 40%;
   }
 }
-@media(max-width:800px){
-  .project{
-
+@media (max-width: 800px) {
+  .project {
     height: 1200px;
-    
   }
-  .project > *{
+  .project > * {
     margin-top: 30px;
   }
 }
-.temp{
+.temp {
   color: #15ecfb;
   margin-top: 5%;
 }
