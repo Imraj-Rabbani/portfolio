@@ -291,22 +291,37 @@ strong {
 .middle > * {
   padding-top: 25px;
 }
+.project-type{
+  background-color: black;
+  color: white;
+  /* padding-left: 50px; */
+  padding: 20px 50px;
+  font-size: x-large;
+}
 .project_images {
   height: 170px;
   border-radius: 5%;
 }
+
+.project{
+  padding-top: 30px;
+  /* border: white solid 1px; */
+  height: auto;
+  padding-bottom: 30px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 60vh;
   width: 100%;
-  /* border: red solid 2px; */
   background-color: black;
   padding-top: 15%;
 }
 main > * {
   text-align: center;
+  padding: 30px;
+  height: auto;
 }
 .desc {
   color: #15ecfb;
@@ -369,7 +384,7 @@ a:hover {
 }
 @media (max-width: 800px) {
   .project {
-    height: 1200px;
+    height: auto;
   }
   .project > * {
     margin-top: 30px;
@@ -379,3 +394,4 @@ a:hover {
   color: #15ecfb;
   margin-top: 5%;
 }
+
